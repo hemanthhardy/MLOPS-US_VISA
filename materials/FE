@@ -1,0 +1,22 @@
+DATA CLEANING:
+1) handle null values/ missing values
+2) handle duplicates/ redundant values
+3) check datatypes
+4) drop features
+4) understand dataset
+
+FEATURE EXTRACTION:
+1) age from year
+2) X,Y split
+
+FEATURE TRANSFORMATION:
+1) check skewness -  +ve/-ve and how much?
+2) Power transformer - reduces skewness / outliers - makes data like gaussian curve
+FEATURE ENCODING, SCALING:
+1) one hot encoding : categorical/ few unique values
+   ordial encoding  : discrete/ranged/ranked values
+2) scaling(numeric) : unit variance and removed mean
+3) power transformer(numeric): non gaussian to gaussian curve distribution.
+
+Classification:
+Imbalanced data handling - SMOTE

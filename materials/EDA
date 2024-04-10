@@ -1,0 +1,20 @@
+1) categorical/numerical features counts
+   categorical -- proportion -- unique value(same %) - drop feature
+2) uni/bi/multi variate analysis
+   i)   uni(numeric)     -- outliers, skewness, discrete/contineous
+        uni(categorical) -- balanced or unbalanced
+   ii)  multi(categorical)-- chi squared test - rejects Null hypothesis(non correlated feature to the target)
+   iii) bivariate        -- how much impact on target feature(y) by one of the independent feature(x)
+3) checking null values - categorical
+4) checking outliers,skewness - boxplot, histplot    - numerical
+5) categorical features values - binary numerical values by feature encoding
+6) target(y) visualization - pie chart - to check balance/imbalanced data
+
+1) drop columns - all are unique values, non-correlated to target
+2) others - when few unique values(major % proportion) and remaining values (less % proportion -- others) 
+3) balanced/imbal dataset - target column y % proportion   --> SMOTE
+4) null values -->
+5) outliers/skewness    --> power transformer
+6) non-constant variance features(heteroscedasicity) issues --> box-cox, yoe-johnson transform
+
+
