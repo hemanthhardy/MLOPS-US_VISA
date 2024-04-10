@@ -1,3 +1,7 @@
 from us_visa.logger import logging
 
-logging.info("Demo logging")
+
+try:
+    1/"4"
+except Exception as e:
+    logging.info(e)
