@@ -3,7 +3,8 @@
     Modular coding
     Mongo_DB
     Evidently AI
-# Flowcharts:
+# Flowcharts: 
+(checkFlowchart dir)
     Project structure
     project workflow
     Project pipeline components flowcharts
