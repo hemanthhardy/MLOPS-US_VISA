@@ -1,10 +1,9 @@
-## MLOPS implementation - US VISA acceptance prediction
+#  MLOPS implementation - US VISA acceptance prediction
     AWS CICD deployment
     Modular coding
     Mongo_DB
     Evidently AI
-# Flowcharts: 
-(checkFlowchart dir)
+## Flowcharts: (checkFlowchart dir)
     Project structure
     project workflow
     Project pipeline components flowcharts
